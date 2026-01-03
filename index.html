@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TwinPlay Studio — Twins Gaming • Software • Tennis</title>
+  <meta name="description" content="TwinPlay Studio — software services, gaming events and tennis coaching for twins and partners.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#94a3b8;
+      --accent:#7c3aed;
+      --accent-2:#06b6d4;
+      --glass: rgba(255,255,255,0.04);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:linear-gradient(180deg,var(--bg) 0%, #061423 100%);
+      color:#e6eef8;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:800;color:white}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;padding:40px 0}
+    .hero-strap{max-width:640px}
+    h1{font-size:2.25rem;margin:0 0 12px}
+    p.lead{color:var(--muted);margin:0 0 20px}
+    .ctas{display:flex;gap:12px}
+    .btn{padding:12px 18px;border-radius:10px;border:0;cursor:pointer;font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#5b21b6);color:white}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:32px 0}
+    .service h3{margin:0 0 8px}
+    .service p{margin:0;color:var(--muted);font-size:0.95rem}
+    .hero-side{display:flex;flex-direction:column;gap:12px}
+    .feature{display:flex;gap:12px;align-items:center}
+    .feature .icon{width:56px;height:56px;border-radius:10px;background:var(--glass);display:flex;align-items:center;justify-content:center}
+    footer{padding:28px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02);margin-top:32px}
+    .grid-2{display:grid;grid-template-columns:1fr 320px;gap:24px}
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .services{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      nav a{margin-left:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">TP</div>
+        <div>
+          <div style="font-weight:800">TwinPlay Studio</div>
+          <div style="font-size:12px;color:var(--muted)">Twins Gaming · Software · Tennis</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#tennis">Tennis</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-strap">
+          <h1>Built for twins, played by everyone.</h1>
+          <p class="lead">TwinPlay Studio combines game-focused software services, coordinated gaming events, and professional tennis coaching — all designed to help twins and partners perform, compete, and create together.</p>
+          <div class="ctas">
+            <button class="btn btn-primary">Get started</button>
+            <button class="btn btn-ghost">Book a session</button>
+          </div>
+
+          <div class="services" id="services">
+            <div class="card service">
+              <h3>Software & Tools</h3>
+              <p>Custom game utilities, matchmaking tools, stat tracking, and lightweight integrations to power your twin-focused projects.</p>
+            </div>
+            <div class="card service">
+              <h3>Gaming Events</h3>
+              <p>Organized tournaments, duo ladders, and streaming-friendly rulesets to showcase coordination and teamwork between twins.</p>
+            </div>
+            <div class="card service">
+              <h3>Tennis Coaching</h3>
+              <p>Technical training, doubles strategies, drills tailored for sibling dynamics, and seasonal camps for beginners to advanced players.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-side">
+          <div class="card">
+            <strong>Why TwinPlay?</strong>
+            <p style="color:var(--muted);margin-top:8px">We understand paired play. Whether you're coding a co-op feature or perfecting a doubles serve, our services focus on synergy, communication, and performance.</p>
+          </div>
+
+          <div class="card">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div>
+                <strong>Next Event</strong>
+                <div style="color:var(--muted);font-size:13px;margin-top:6px">Twin Arena — 2026-03-15 — Online doubles tournament</div>
+              </div>
+              <div style="text-align:right;color:var(--accent);font-weight:800">Register</div>
+            </div>
+          </div>
+
+          <div class="card feature">
+            <div class="icon">🎮</div>
+            <div>
+              <strong>Matchmaking</strong>
+              <div style="color:var(--muted);font-size:13px">Find the perfect duo pairing or join a twins-only ladder.</div>
+            </div>
+          </div>
+
+        </aside>
+      </section>
+
+      <section class="grid-2" style="margin-top:28px">
+        <div class="card" id="tennis">
+          <h2 style="margin-top:0">Tennis at TwinPlay</h2>
+          <p style="color:var(--muted)">Our tennis program focuses on doubles tactics, partner communication, and physical preparation specifically tuned for siblings who play together. We offer private lessons, group drills, and seasonal bootcamps.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Private coaching — tailored plans for twin duos</li>
+            <li>Doubles strategy sessions — court positioning, signals, and shot selection</li>
+            <li>Performance analysis — video breakdowns and fitness guidance</li>
+          </ul>
+
+          <div style="margin-top:14px">
+            <button class="btn btn-primary">Book a tennis trial</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Contact & Booking</h3>
+          <p style="color:var(--muted)">Questions? Want a custom software quote or to schedule a tennis lesson? Reach out and we'll respond within 48 hours.</p>
+
+          <form action="mailto:hello@twinplay.example" method="post" style="display:flex;flex-direction:column;gap:8px;margin-top:10px">
+            <input name="name" placeholder="Your name" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+            <input name="email" placeholder="Email" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+            <textarea name="message" placeholder="How can we help?" rows="4" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+            <div style="display:flex;gap:8px">
+              <button type="submit" class="btn btn-primary">Send</button>
+              <a href="mailto:hello@twinplay.example" class="btn btn-ghost" style="display:inline-flex;align-items:center;justify-content:center;text-decoration:none;color:inherit">Email us</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div style="color:var(--muted)">© 2026 TwinPlay Studio — twins gaming · software · tennis</div>
+        <div style="display:flex;gap:12px;align-items:center">
+          <a href="#" style="color:var(--muted);text-decoration:none">Privacy</a>
+          <a href="#" style="color:var(--muted);text-decoration:none">Terms</a>
+          <a href="#contact" style="color:var(--muted);text-decoration:none">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
