@@ -1,0 +1,14 @@
+# robots.txt for TwinPlay Labs
+# Place this file at the site root (e.g. https://yourdomain.com/robots.txt)
+# Replace example.com with your real domain before publishing.
+
+User-agent: *
+# Allow everything except admin/cgi-bin
+Disallow: /admin/
+Disallow: /cgi-bin/
+Allow: /
+
+# Location of sitemap (replace example.com)
+Sitemap: https://example.com/sitemap.xml
+# Optional contact for crawler issues
+# Contact: webmaster@example.com
