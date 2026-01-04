@@ -1,5 +1,5 @@
-Led by Twin A – specializing in gaming software, tools, and performance optimization.
-Led by Twin B – competitive tennis training, technique, and fitness.
+Led by Andre – specializing in gaming software, tools, and performance optimization.
+Led by Antonio – competitive tennis training, technique, and fitness.
 
 About TwinPlay Studio
 
