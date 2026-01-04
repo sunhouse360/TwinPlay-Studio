@@ -1,5 +1,5 @@
-Led by Andre – specializing in gaming software, tools, and performance optimization.
-Led by Antonio – competitive tennis training, technique, and fitness.
+Led by Antonio & Andre – specializing in gaming software, tools, and performance optimization.
+Led by Andre & Antonio – competitive tennis training, technique, and fitness.
 
 About TwinPlay Studio
 
